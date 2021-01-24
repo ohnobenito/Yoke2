@@ -19,12 +19,12 @@ Screenshot of the completed output:
 
 ![Yoke2 Screenshot](./src/yoke2.png)
 
-![Yoke3 Screenshot](./src/yoke3.png)
+![Yoke3 Gif](./src/yoke3.gif)
 
 ## Installation
 
-Application is deployed [here](https://yokechat.herokuapp.com/) so no installation needed for use. However, if user wants access on local device the user will need to fork the repository and run an npm install by entering in the following on the command line in the correct directory:
-`npm install`
+Application is deployed [here](https://yokechat.herokuapp.com/) so no installation needed for use. However, if user wants access on local device the user will need to fork the repository and run an npm install by entering in the following on the command line in the correct directory:<br>
+`npm install`<br>
 This will install all required dependancies into the package.json file that are require to use this application. The user will also need to enter their own mysql requirements to connect to the sql database.
 
 ## Usage
