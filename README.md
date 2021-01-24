@@ -1,4 +1,4 @@
-<h1 align="center">Project 2: Team Yoke</h1>
+<h1 align="center">Yoke Chat</h1>
 
 ## Yoke
 
@@ -6,10 +6,14 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [License](#licence)
+- [Questions](#questions)
 
 ## Description
 
 Yoke is an online messaging tool, that allows users to join/add a chatroom and have realtime conversations with other users online. Core technology includes Moment.js, Socket.io, Bootstrap, Express, Sequelize-MySQL, Heroku/JawsDB & Handlebars.
+
+**Links to [GitHub Repo](https://github.com/ohnobenito/Yoke2) and [Launched Application](https://yokechat.herokuapp.com/)**
 
 Screenshot of the completed output:
 
@@ -19,7 +23,9 @@ Screenshot of the completed output:
 
 ## Installation
 
-`npm i`
+Application is deployed [here](https://yokechat.herokuapp.com/) so no installation needed for use. However, if user wants access on local device the user will need to fork the repository and run an npm install by entering in the following on the command line in the correct directory:
+`npm install`
+This will install all required dependancies into the package.json file that are require to use this application. The user will also need to enter their own mysql requirements to connect to the sql database.
 
 ## Usage
 
@@ -27,9 +33,6 @@ Run the following command at the root of the directory and you will be able to v
 
 `node server`
 
-The project was deployed on heroku and can viewed at this website:
-
-`https://yokee.herokuapp.com/`
 
 ## Contributing
 
@@ -39,4 +42,9 @@ The project was deployed on heroku and can viewed at this website:
 :octocat: [Vina Kurniasari](https://github.com/vina19)
 :octocat: [Doug Kvamme](https://github.com/kvadou)
 
-<br />
+## License
+This application is covered by the MIT license. Full documentation can be found [here](https://choosealicense.com/licenses/mit).
+
+## Questions
+Follow me on GitHub here: [Github](https://www.github.com/Ohnobenito)<br>
+Have additional questions? Contact Benito Gonzalez by email: ohnobenito@gmail.com
