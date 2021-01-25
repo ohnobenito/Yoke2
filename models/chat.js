@@ -1,6 +1,6 @@
 // Creates a "Chat" model that matches up with DB
 module.exports = function(sequelize, DataTypes) {
-  let Chat = sequelize.define("Chat", {
+  let Chat = sequelize.define('Chat', {
     topic: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -13,7 +13,7 @@ module.exports = function(sequelize, DataTypes) {
 
   Chat.associate = function(models) {
     Chat.hasMany(models.Username, {
-      onDelete: "CASCADE"
+      onDelete: 'CASCADE'
     });
   };
   return Chat;
