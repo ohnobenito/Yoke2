@@ -41,7 +41,7 @@ app.set('view engine', 'handlebars');
 
 // Import routes and give the server access to them.
 let routes = require('./controllers/index.js');
-app.use(compression(routes));
+app.use(compression());
 require('./controllers/chat-api-routes.js')(app);
 require('./controllers/user-api-routes.js')(app);
 
