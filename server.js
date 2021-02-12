@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 3000;
-
+const compression = require('compression');
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
@@ -41,7 +41,7 @@ app.set('view engine', 'handlebars');
 
 // Import routes and give the server access to them.
 let routes = require('./controllers/index.js');
-app.use(routes);
+app.use(compression(routes));
 require('./controllers/chat-api-routes.js')(app);
 require('./controllers/user-api-routes.js')(app);
 
