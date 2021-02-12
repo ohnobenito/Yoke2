@@ -1,0 +1,1 @@
+const users=[];function userJoin(a,b,c){const d={id:a,username:b,room:c};return users.push(d),d}function getCurrentUser(a){return users.find(b=>b.id===a)}function userLeaves(a){const b=users.findIndex(b=>b.id===a);if(-1!==b)return users.splice(b,1)[0]}function getRoomUsers(a){return users.filter(b=>b.room===a)}module.exports={userJoin,getCurrentUser,userLeaves,getRoomUsers};
